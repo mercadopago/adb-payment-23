@@ -29,9 +29,10 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: "8.1"
+          php-version: "7.4"
           extensions: curl, dom, intl, json, openssl
-          coverage: xdebug
+          tools: composer:2.0
+          coverage: xdebug2
 
       - name: Verify PHP Installation
         run: php -v
@@ -59,7 +60,7 @@ jobs:
 
       - name: Run Unit Test
         id: unit-test
-        run: magento2/vendor/phpunit/phpunit/phpunit --configuration magento2/app/code/MercadoPago/AdbPayment/phpunit.xml --coverage-clover clover.xml --coverage-text magento2/app/code/MercadoPago/AdbPayment/Tests
+        run: magento2/vendor/phpunit/phpunit/phpunit --coverage-clover clover.xml --coverage-text --whitelist magento2/app/code/MercadoPago/AdbPayment magento2/app/code/MercadoPago/AdbPayment/Tests
 
       - name: Repository Minimum Test Coverage
         id: repository-coverage

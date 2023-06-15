@@ -86,4 +86,4 @@ Visite nossa [Wiki][wiki] e veja como configurar e instalar nosso módulo.
 
 [Open Source License](LICENSE)
 
-   [wiki]: <https://github.com/mercadopago/adb-payment/wiki>
+   [wiki]: <https://github.com/mercadopago/adb-payment-23/wiki>

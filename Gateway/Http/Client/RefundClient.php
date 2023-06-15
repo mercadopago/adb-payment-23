@@ -213,7 +213,7 @@ class RefundClient implements ClientInterface
      * @return array
      */
     public function placeMultipleRefunds (
-        object $order,
+        $order,
         ZendClient $client,
         string $url,
         array $request,

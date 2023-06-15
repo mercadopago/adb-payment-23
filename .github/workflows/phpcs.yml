@@ -29,10 +29,10 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: "7.2"
+          php-version: "7.4"
           extensions: curl, dom, intl, json, openssl
           coverage: xdebug
-          tools: phpmd
+          tools: phpmd, composer:2.0
 
       - name: Verify PHP Installation
         run: php -v

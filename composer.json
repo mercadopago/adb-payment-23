@@ -1,5 +1,5 @@
 {
-    "name": "mercadopago/adb-payment",
+    "name": "mercadopago/adb-payment-23",
     "description": "MercadoPago - Payment for Adobe Commerce",
     "require": {
         "php": "~7.2.0||~7.3.0||~7.4.0",
@@ -15,7 +15,7 @@
         "magento/module-ui": ">=101.0.4",
         "magento/module-payment": "^100.3",
         "magento/module-vault": "101.*",
-        "magento/zendframework1": "~1.15.1",
+        "magento/zendframework1": "~1.14.0",
         "ext-json": "*",
         "ext-gd": "*",
         "ext-zip": "*"

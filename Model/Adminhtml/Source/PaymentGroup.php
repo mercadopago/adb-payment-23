@@ -52,7 +52,7 @@ class PaymentGroup extends Fieldset
     protected function _isCollapseState($element)
     {
         $extra = $this->_authSession->getUser()->getExtra();
-        if (isset($extra['configState'][$element->getId()])) {
+        if (isset($extra['configState']) && isset($extra['configState'][$element->getId()])) {
             return $extra['configState'][$element->getId()];
         }
 
