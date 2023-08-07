@@ -469,6 +469,7 @@
                 <item name="payerBillingAddress" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\BillingAddressDataRequest</item>
                 <item name="shippings" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\ShippingsDataRequest</item>
                 <item name="metadata" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\MetadataPaymentDataRequest</item>
+                <item name="sponsor" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\SponsorDataRequest</item>
                 <item name="metadataCheckoutPro" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\MetadataPaymentCheckoutProDataRequest</item>
                 <item name="paymentMethod" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\CheckoutProPaymentDataRequest</item>
             </argument>
@@ -529,6 +530,7 @@
                 <item name="additionalInfoPayer" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\AdditionalInfoPayerDataRequest</item>
                 <item name="additionalInfoShippings" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\AdditionalInfoShippingsDataRequest</item>
                 <item name="metadata" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\MetadataPaymentDataRequest</item>
+                <item name="sponsor" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\SponsorDataRequest</item>
                 <item name="metadataPaymentMethodsOff" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\MetadataPaymentMethodsOffDataRequest</item>
                 <item name="paymentMethod" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\PaymentMethodsOffDataRequest</item>
             </argument>
@@ -590,6 +592,7 @@
                 <item name="additionalInfoPayer" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\AdditionalInfoPayerDataRequest</item>
                 <item name="additionalInfoShippings" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\AdditionalInfoShippingsDataRequest</item>
                 <item name="metadata" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\MetadataPaymentDataRequest</item>
+                <item name="sponsor" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\SponsorDataRequest</item>
                 <item name="metadataBankTransfer" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\MetadataPaymentBankTransfDataRequest</item>
                 <item name="paymentMethod" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\BankTransferPaymentDataRequest</item>
                 <item name="transactionDetails" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\BankTransDetailsDataRequest</item>
@@ -651,6 +654,7 @@
                 <item name="additionalInfoPayer" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\AdditionalInfoPayerDataRequest</item>
                 <item name="additionalInfoShippings" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\AdditionalInfoShippingsDataRequest</item>
                 <item name="metadata" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\MetadataPaymentDataRequest</item>
+                <item name="sponsor" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\SponsorDataRequest</item>
                 <item name="metadataPix" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\MetadataPaymentPixDataRequest</item>
                 <item name="pointOfInteraction" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\PointOfInteractionPaymentDataRequest</item>
                 <item name="paymentMethod" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\PixPaymentDataRequest</item>
@@ -757,6 +761,7 @@
                 <item name="additionalInfoPayer" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\AdditionalInfoPayerDataRequest</item>
                 <item name="additionalInfoShippings" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\AdditionalInfoShippingsDataRequest</item>
                 <item name="metadata" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\MetadataPaymentDataRequest</item>
+                <item name="sponsor" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\SponsorDataRequest</item>
                 <item name="metadataCc" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\MetadataPaymentCcDataRequest</item>
                 <item name="paymentMethod" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\CcPaymentDataRequest</item>
                 <item name="captureAmount" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\CaptureAmountRequest</item>
@@ -825,6 +830,7 @@
                 <item name="additionalInfoPayer" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\AdditionalInfoPayerDataRequest</item>
                 <item name="additionalInfoShippings" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\AdditionalInfoShippingsDataRequest</item>
                 <item name="metadata" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\MetadataPaymentDataRequest</item>
+                <item name="sponsor" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\SponsorDataRequest</item>
                 <item name="metadataCc" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\MetadataPaymentCcDataRequest</item>
                 <item name="paymentMethod" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\TwoCcPaymentDataRequest</item>
                 <item name="trasanctionInfo" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\TransactionInfoDataRequest</item>
@@ -973,6 +979,7 @@
                 <item name="additionalInfoPayer" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\AdditionalInfoPayerDataRequest</item>
                 <item name="additionalInfoShippings" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\AdditionalInfoShippingsDataRequest</item>
                 <item name="metadata" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\MetadataPaymentDataRequest</item>
+                <item name="sponsor" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\SponsorDataRequest</item>
                 <item name="metadataCc" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\MetadataPaymentCcDataRequest</item>
                 <item name="paymentMethod" xsi:type="string">MercadoPago\AdbPayment\Gateway\Request\CcVaultPaymentDataRequest</item>
             </argument>

@@ -71,8 +71,8 @@
         <type id="cencosud" order="1110">
             <label>Cencosud</label>
         </type>
-        <type id="dinners" order="1120">
-            <label>Dinners</label>
+        <type id="diners" order="1120">
+            <label>Diners</label>
         </type>
         <type id="tarshop" order="1130">
             <label>Tarshop</label>
