@@ -1,6 +1,7 @@
 {
     "name": "mercadopago/adb-payment-23",
     "description": "MercadoPago - Payment for Adobe Commerce",
+    "version": "1.3.2",
     "require": {
         "php": "~7.2.0||~7.3.0||~7.4.0",
         "magento/framework": "102.0.*",
